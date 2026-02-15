@@ -1,0 +1,27 @@
+{
+  "name": "phishing-defense-backend-enhanced",
+  "version": "2.0.0",
+  "description": "Enhanced backend with real phishing detection using multi-method analysis",
+  "main": "server-enhanced.js",
+  "scripts": {
+    "start": "node server-enhanced.js",
+    "dev": "nodemon server-enhanced.js"
+  },
+  "keywords": ["phishing", "security", "monitoring", "detection", "ml"],
+  "author": "Combank Digital Security",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "puppeteer": "^21.6.1",
+    "csv-writer": "^1.6.0",
+    "jsdom": "^23.0.1",
+    "jimp": "^0.22.10",
+    "natural": "^6.8.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
